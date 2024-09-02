@@ -7,6 +7,7 @@ import { TypeAnimation } from "react-type-animation";
 import axios from "axios";
 import Swipper2 from "../../components/Swipper2";
 import { useNavigate } from "react-router-dom";
+import { toast } from "react-toastify";
 
 const Dashboard = () => {
   const [auth] = useAuth();

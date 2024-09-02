@@ -7,6 +7,9 @@ import axios from "axios";
 import { Select } from "antd";
 import moment from "moment";
 
+const { Option } = Select;
+
+
 function DeliveredOrders() {
   const [orders, setOrders] = useState([]);
   const [auth] = useAuth();
