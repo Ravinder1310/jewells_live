@@ -1,0 +1,76 @@
+.card-img {
+    transition: transform 0.2s; 
+  }
+  
+  .card-img:hover {
+    transform: scale(0.98);
+  }
+
+  .card{
+    width: "15rem";
+    border: 1px solid rgb(241, 238, 238);
+    padding: 10px 10px;
+    background-color: #efefe8;
+  }
+
+   .card:hover{
+    cursor: pointer;
+   }
+
+  .card-title {
+    font-size: 15px;
+    font-weight: 350;
+    color: black;
+  }
+
+  .price-offer{
+    display: flex;
+    gap: 5px;
+    color: rgb(71, 61, 61);
+    font-weight: 400;
+  }
+
+  .offer{
+    margin-left: 6px;
+    color: #319874;
+  }
+
+  .offerPrice{
+    margin-left: 5px;
+    color: grey;
+  }
+
+  .price{
+    text-decoration: line-through;
+  }
+
+
+@media screen and (max-width: 767px) {
+    .d-flex.flex-wrap {
+      justify-content: center;
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    .zoom-image {
+      height: 250px;
+    }
+  }
+
+  @media screen and (max-width: 375px) {
+    .card-body {
+      padding: 10px; /* Reduce padding for better space utilization */
+    }
+  
+    /* Adjust button styles to make them fit */
+    .btn {
+      font-size: 8px; /* Increase font size for buttons */
+      padding: 5px 4px; /* Increase button padding */
+    }
+  }
+  
+  
+
+  
+  
+  

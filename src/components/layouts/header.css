@@ -1,0 +1,68 @@
+.nav-link{
+    font-size: 13px;
+    /* color: white; */
+}
+
+.dropdown-item{
+    font-size: 13px;
+}
+
+.logoName{
+   font-weight: 700;
+   margin-bottom: -7px;
+   letter-spacing: normal;
+}
+
+
+
+.mainLogo{
+  display: block;
+  margin: 0 auto;
+  width: 100px; 
+  height: 50px;
+}
+
+.navbar {
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  line-height: 23px;
+  text-transform: uppercase;
+  padding: 10px 10px;
+  
+  box-shadow: 0 8px 6px -6px gray;
+  --webkit-box-shadow: 0 8px 6px -6px gray;
+  /* border-bottom: solid grey !important; */
+ }
+
+ .nav-link{
+  font-weight: 300 !important;
+ }
+
+ .active{
+  border-bottom: 2px solid black;
+ }
+
+ .navbar-brand{
+  font-weight: 700;
+  font-family: 'roboto', sans-serif;
+  letter-spacing: 3px;
+  background: -webkit-linear-gradient(#eee, #676262);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+ }
+
+.navbar-nav{
+    margin-right: 30px;
+}
+
+@media screen and (min-width: 992px) {
+    .navbar-brand1{
+       display: none;
+    }
+   }
+
+   @media screen and (max-width: 992px) {
+    .navbar-brand{
+       display: none;
+    }
+   }

@@ -1,0 +1,16 @@
+.menuAndSlider{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.userDetails{
+    margin-top: 130px;
+    margin-left: -20px;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .menuAndSlider{
+        display: block;
+    }
+  }
