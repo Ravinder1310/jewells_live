@@ -352,10 +352,7 @@ const Landing = () => {
               <div className="abt-dis">
                 <h2>About Us</h2>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Corrupti dolorem eum consequuntur ipsam repellat dolor soluta
-                  aliquid laborum, eius odit consectetur vel quasi in quidem,
-                  eveniet ab est corporis tempore.
+                Welcome to Royal Jewells , where elegance meets craftsmanship. We are passionate about creating timeless jewelry pieces that celebrate life’s precious moments. From delicate everyday essentials to luxurious statement designs, our collections are crafted with precision, using the finest materials and an unwavering attention to detail.
                 </p>
                 <button className="abt-btn" onClick={() => navigate(`/about`)}>
                   Read more

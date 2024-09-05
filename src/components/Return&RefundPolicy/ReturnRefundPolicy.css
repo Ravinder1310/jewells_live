@@ -1,0 +1,75 @@
+.refund-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    font-family: 'Arial', sans-serif;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .refund-header {
+    font-size: 36px;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .refund-intro {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .refund-section {
+    margin-bottom: 30px;
+  }
+  
+  .refund-title {
+    font-size: 24px;
+    color: #444;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .refund-text {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+    line-height: 1.6;
+  }
+  
+  .refund-list {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .refund-list li {
+    margin-bottom: 5px;
+  }
+  
+  strong {
+    color: #333;
+  }
+  
+  @media (max-width: 600px) {
+    .refund-container {
+      padding: 15px;
+    }
+  
+    .refund-header {
+      font-size: 28px;
+    }
+  
+    .refund-title {
+      font-size: 20px;
+    }
+  
+    .refund-text {
+      font-size: 14px;
+    }
+  }
+  

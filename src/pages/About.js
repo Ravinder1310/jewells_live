@@ -14,13 +14,9 @@ const About = () => {
         </div>
         <div className="col-md-4">
           <p className="text-justify mt-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-            officiis obcaecati esse tempore unde ratione, eveniet mollitia,
-            perferendis eius temporibus dicta blanditiis doloremque explicabo
-            quasi sunt vero optio cum aperiam vel consectetur! Laborum enim
-            accusantium atque, excepturi sapiente amet! Tenetur ducimus aut
-            commodi illum quidem neque tempora nam.
-          </p>
+          Welcome to Royal Jewells, where elegance meets craftsmanship. We are passionate about creating timeless jewelry pieces that celebrate life’s precious moments. From delicate everyday essentials to luxurious statement designs, our collections are crafted with precision, using the finest materials and an unwavering attention to detail.
+
+</p>
         </div>
       </div>
     </Layout>

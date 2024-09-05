@@ -29,16 +29,20 @@ const Footer = () => {
             <p><Link to="/about" className="text-white text-decoration-none">About</Link></p>
             <p><Link to="/shop" className="text-white text-decoration-none">Shop</Link></p>
             <p><Link to="/blog" className="text-white text-decoration-none">Blog</Link></p>
+            <p><Link to="/privacy-policy" className="text-white text-decoration-none">Privacy&Policy</Link></p>
+            <p><Link to="/return-refund-policy" className="text-white text-decoration-none">Return & Refund Policy</Link></p>
+            <p><Link to="/shipping-policy" className="text-white text-decoration-none">Shipping Policy</Link></p>
+            <p><Link to="/terms-conditions" className="text-white text-decoration-none">Terms & Conditions</Link></p>
           </div>
-          <div className="col-12 col-md-4 mb-4 mb-md-0">
+          {/* <div className="col-12 col-md-4 mb-4 mb-md-0">
             <h2>About Us</h2>
             <p>When looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to.</p>
-          </div>
+          </div> */}
           <div className="col-12 col-md-4">
             <h2>Contact Us</h2>
-            <p>Location</p>
-            <p>Call +01123456789</p>
-            <p>demo@gmail.com</p>
+            <p>Location :Shop No.: 91,Town Park,Hisar</p>
+            <p>Call +919769833416</p>
+            <p>rscjewellshelp@gmail.com</p>
             <button className="btn btn-primary" onClick={() => navigate(`/contact`)}>Contact Us</button>
           </div>
         </div>

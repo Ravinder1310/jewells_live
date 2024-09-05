@@ -32,6 +32,10 @@ import PendingOrders from "./pages/Admin/pendingOrders";
 import CanceledOrders from "./pages/Admin/cancelledOrders";
 import DeliveredOrders from "./pages/Admin/deliveredOrders";
 import ShippedOrders from "./pages/Admin/shippedOrders";
+import Privacy_Policy from "./components/Privacy&Policy/Privacy_Policy";
+import Return_RefundPolicy from "./components/Return&RefundPolicy/Return_RefundPolicy";
+import ShippingPolicy from "./components/ShippingPolicy/ShippingPolicy";
+import TermsAndConditions from "./components/TermsAndConditions/TermsAndConditions";
 
 function App() {
   useEffect(() => {
@@ -48,6 +52,10 @@ function App() {
         <Route path="/category/:slug" element={<CategoryProducts />} />
         <Route path="/search" element={<Search />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/privacy-policy" element={<Privacy_Policy />} />
+        <Route path="/return-refund-policy" element={<Return_RefundPolicy />} />
+        <Route path="/shipping-policy" element={<ShippingPolicy />} />
+        <Route path="/terms-conditions" element={<TermsAndConditions />} />
         <Route path="/dashboard" element={<PrivateRoute />}>
           <Route path="user" element={<Dashboard />} />
           <Route path="user/orders" element={<Orders />} />
